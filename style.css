@@ -1,0 +1,27 @@
+body{
+    background-image: linear-gradient(to right top, #66ff87, #3dffb1, #00ffea, hsl(188, 100%, 50%), #a5b3ff);
+} 
+
+#scorepoint{
+ font-size: 32px;
+ margin-left: -1500px;
+}
+
+#lookytime{
+    font-size: 32px;
+    float:right ;
+    margin-right: 16;
+}
+
+#sketchdrawn{
+    font-size: 32px;
+    color:orange;
+}
+
+#ur_sketch{
+    font-size: 28px;
+}
+
+#da_confidence{
+    font-size: 28px;
+}
