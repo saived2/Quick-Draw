@@ -4,7 +4,7 @@ body{
 
 #scorepoint{
  font-size: 32px;
- margin-left: -1500px;
+ float:left;
 }
 
 #lookytime{
