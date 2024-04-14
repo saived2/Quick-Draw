@@ -1,6 +1,10 @@
 body{
     background-image: linear-gradient(to right top, #66ff87, #3dffb1, #00ffea, hsl(188, 100%, 50%), #a5b3ff);
 } 
+#quicky{
+    float:center;
+    font-size: 50;
+}
 
 #scorepoint{
  font-size: 32px;
