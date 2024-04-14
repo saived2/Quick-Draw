@@ -38,16 +38,18 @@ function draw() {
 }
 function check_sketch() {    
     time_counter++;
-    document.getElementById('lookytime').innerHTML="Timer: "+time_counter
-    if (time_counter>2000) {
+    document.getElementById('lookytime').innerHTML="Timer: "+time_counter;
+    if (time_counter>2000) 
+    {
         time_counter=0;
         timer_check="completed";
 
     }
-     if (timer_check=="completed" || answer_holder == "set");{
+     if (timer_check=="completed" || answer_holder == "set")
+     {
         timer_check= "";
         answer_holder="";
-      
+        update_canvas();
      }
 }
 
